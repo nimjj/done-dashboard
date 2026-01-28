@@ -1,16 +1,23 @@
-# React + Vite
+# ✅ The Done Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive web application built with **React** to track completed tasks and gamify productivity.
 
-Currently, two official plugins are available:
+## 🚀 Overview
+The "Done Dashboard" focuses on tracking "wins" rather than just "to-dos." Users can log completed tasks, categorize them by effort level, and see an instantly updated total score based on the value of the work performed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Key Features & Technical Implementation
+* **Reactive State Management**: Utilized the `useState` hook to handle real-time UI updates for task logging and score calculations.
+* **Dynamic Data Rendering**: Implemented the `.map()` method to transform task arrays into a clean, interactive list.
+* **Functional Logic**: Used the `.reduce()` method to calculate complex point totals from an array of objects.
+* **Professional Workflow**: Developed using a feature-branching strategy on Git, moving code from a `test` environment to `main` production.
 
-## React Compiler
+## 💻 Tech Stack
+* **Framework**: React (Vite)
+* **Language**: JavaScript (JSX)
+* **Styling**: Inline CSS for component-based design
+* **Version Control**: Git & GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⏱️ Quick Start
+1. Clone the repository.
+2. Run `npm install` to gather the dependencies.
+3. Run `npm run dev` to launch the local development server.
